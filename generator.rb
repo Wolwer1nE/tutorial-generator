@@ -9,6 +9,6 @@ end
 template = File.read('template.txt')
 selectors = scripts_lines.join("\n")
 
-File.open('script', 'w') do |f|
+File.open('script.js', 'w') do |f|
   f.puts(template.gsub("#SELECTORS_LIST", selectors))
 end
