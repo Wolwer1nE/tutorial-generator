@@ -1,5 +1,4 @@
 lines = File.readlines('doc.txt')
-p lines
 scripts_lines = []
 step = 1
 lines.each do |line|
@@ -10,7 +9,6 @@ end
 template = File.read('template.txt')
 selectors = scripts_lines.join("\n")
 
-prefix_script =
 File.open('script', 'w') do |f|
   f.puts(template.gsub("#SELECTORS_LIST", selectors))
 end
