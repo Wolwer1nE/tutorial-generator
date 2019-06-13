@@ -3,7 +3,7 @@ $(document).ready(function() {
     button.className="btn btn-success tutorial";
     button.innerHTML = "?";
     button.id = "startTutorial";
-    button.style = "top:0;right:0;position:absolute;z-index: 9999";
+    button.style = "top:0;right:0;height:50px;width:50px;position:absolute;z-index: 9999";
     document.body.appendChild(button);
 
     #SELECTORS_LIST

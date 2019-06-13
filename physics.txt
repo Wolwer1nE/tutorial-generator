@@ -1,0 +1,7 @@
+label;Select Geometry; Сначала нужно выбрать геометрию.;
+label;SelectedMaterial1; Укажите материал для первой компоненты;
+label;Select Material For Component 2; Укажите материал для второй компоненты. Если геометрия не имеет второго материала, то выбор ни на что не повлияет.;
+label;ElementType;Тип элемента для большинства задач будет Hex8;
+label;Select Degrees of Freedom for Component 1; Укажите степени свободы в первой компоненте.;
+label;Select Degrees of Freedom for Component 2; На данный момент необходимо указывать одинаковые степени свободы.;
+label;Physics Model Name; Имя модели с физикой не может совпадать с именем геометрии.;
